@@ -1,0 +1,532 @@
+.container_16 {
+  max-width: 960px;
+  width: 92%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.grid_6, .grid_8, .grid_10, .grid_16 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.container_16 .grid_6 {
+  width: 35.5%;
+}
+
+.container_16 .grid_8 {
+  width: 48%;
+}
+
+.container_16 .grid_10 {
+  width: 60.5%;
+}
+
+.container_16 .grid_16 {
+  width: 98%;
+}
+
+.clearfix::after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0px;
+  line-height: 0;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+header[role="banner"] {
+  background-color: white;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #33a4c9;
+  padding-top: 19px;
+  padding-right: 0px;
+  padding-bottom: 19px;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+header figure {
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #eeeeee;
+  border-right-width: 3px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+  border-left-width: 3px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  border-radius: 78px;
+  float: right;
+  height: 156px;
+  width: 156px;
+}
+
+header figure img {
+  border-radius: 75px;
+  height: 150px;
+  position: relative;
+  width: 150px;
+}
+
+header hgroup {
+  float: left;
+  padding-top: 42px;
+  padding-right: 0px;
+  padding-bottom: 42px;
+  padding-left: 0px;
+}
+
+header hgroup h1 {
+  color: #555555;
+  font-family: "DroidSansBold", Arial, sans-serif;
+}
+
+header hgroup h2 {
+  color: #cecece;
+  font-style: italic;
+text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+input:-moz-placeholder {
+  color: white;
+}
+
+.placeholder {
+  color: white;
+}
+
+.contactform {
+  background-color: #33a4c9;
+  color: white;
+  display: none;
+}
+
+.contactform > div {
+  padding-top: 21px;
+  padding-right: 0px;
+  padding-bottom: 21px;
+  padding-left: 0px;
+}
+
+.contactform input[type="text"], .contactform input[type="email"], .contactform textarea {
+  background-color: #2983a0;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #226d85;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #226d85;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #226d85;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #226d85;
+  border-radius: 2px;
+  color: white;
+  max-width: 100%;
+  opacity: 0.7;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  margin-top: 0px;
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+}
+
+.contactform input[type="text"], .contactform input[type="email"] {
+  margin-bottom: 21px;
+}
+
+.contactform textarea {
+  font-family: "DroidSansRegular", Arial, sans-serif;
+  font-size: 14px;
+  height: 148px;
+}
+
+.contactform input[type="text"]:focus, .contactform input[type="email"]:focus, .contactform textarea:focus {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #226d85;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #226d85;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #226d85;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #226d85;
+  opacity: 1;
+  outline-width: medium;
+  outline-style: none;
+  outline-color: -moz-initial;
+transition: opacity 1s ease 0s;
+}
+
+.contactform input[type="submit"] {
+  background-color: #ff9f39;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #ff9f39;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #ff9f39;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ff9f39;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #ff9f39;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.contactform input.error, .contactform textarea.error {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: red;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: red;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: red;
+}
+
+.contactform label.error {
+  display: none !important;
+}
+
+.messageform {
+  display: none;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.envoi-valid, .envoi-error {
+  display: inline-block;
+}
+
+.envoi-valid {
+  background-color: #31d869;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #108d3a;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #108d3a;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #108d3a;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #108d3a;
+  color: #108d3a;
+}
+
+.envoi-error {
+  background-color: #ff5839;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #a62913;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #a62913;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #a62913;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #a62913;
+  color: #a62913;
+}
+
+.envoi-error a {
+  color: #a62913;
+  text-decoration: underline;
+}
+
+section[role="main"] {
+  padding-top: 21px;
+  padding-right: 0px;
+  padding-bottom: 21px;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
+section[role="main"] > div {
+  margin-top: 63px;
+}
+
+section[role="main"] h3 {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e1e1e1;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  margin-top: 0px;
+  position: relative;
+}
+
+section[role="main"] h3::after, h3::before {
+  content: " ";
+  display: block;
+  height: 50px;
+  left: 0px;
+  position: absolute;
+  top: -15px;
+  width: 50px;
+}
+
+section[role="main"] h3::before {
+  background-color: #33a4c9;
+  border-radius: 25px;
+}
+
+section[role="main"] h3::after {
+  background-color: transparent;
+  background-image: url("../img/pictos-titre.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 11px 10px;
+}
+
+section[role="main"] .competences h3::after {
+  background-position: 11px -34px;
+}
+
+section[role="main"] .experiences h3::after {
+  background-position: 11px -86px;
+}
+
+section[role="main"] .formations h3::after {
+  background-position: 10px -139px;
+}
+
+section[role="main"] .loisirs h3::after {
+  background-position: 10px -250px;
+}
+
+section[role="main"] .contact h3::after {
+  background-position: 11px -194px;
+}
+
+.experiences ul, .formations ul {
+  margin-left: 60px;
+}
+
+section[role="main"] h4 {
+  margin-bottom: 0px;
+}
+
+section[role="main"] h4 strong {
+  color: #147393;
+  font-weight: normal;
+}
+
+.experiences li, .formations li {
+  margin-bottom: 63px;
+}
+
+.experiences li:last-child, .formations li:last-child {
+  margin-bottom: 21px;
+}
+
+.experiences li p, .formations li p {
+  margin-left: 30px;
+}
+
+.competences .tags li {
+  background-color: #33a4c9;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #1b91b7;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #1b91b7;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #1b91b7;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #1b91b7;
+  border-radius: 15px;
+  color: white;
+  display: inline-block;
+  line-height: 13px;
+  margin-top: 0px;
+  margin-right: 7px;
+  margin-bottom: 17px;
+  margin-left: 0px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.competences .barres li {
+  margin-bottom: 21px;
+  position: relative;
+}
+
+.competences .barres li::after {
+  background-color: #e1e1e1;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  bottom: -4px;
+  content: " ";
+  display: block;
+  height: 5px;
+  position: absolute;
+  width: 100%;
+}
+
+.competences .barres li span {
+  background-color: #33a4c9;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  bottom: -4px;
+  content: " ";
+  display: block;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: ;
+  z-index: 1;
+}
+
+.lieu, .dates, .phone, .mail, .site, .form, .twitter, .facebook, .dribbble, .skype {
+  background-color: transparent;
+  background-image: url("../img/pictos-gris.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  padding-left: 25px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+}
+
+.lieu {
+  background-position: 0px -2px;
+  color: #999999;
+}
+
+.dates {
+  background-position: 0px -22px;
+  color: #999999;
+}
+
+.phone {
+  background-position: 0px -40px;
+}
+
+.mail {
+  background-position: 0px -58px;
+}
+
+.site {
+  background-position: 0px -80px;
+}
+
+.form {
+  background-position: 0px -100px;
+}
+
+.twitter {
+  background-position: 0px -122px;
+}
+
+.facebook {
+  background-position: 0px -140px;
+}
+
+.dribbble {
+  background-position: 0px -160px;
+}
+
+.skype {
+  background-position: 0px -180px;
+}
+
+#h1:hover {
+  text-align: left;
+}
+
+#h3:hover {
+  text-align: left;
+}
+
