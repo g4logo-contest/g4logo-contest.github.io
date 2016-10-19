@@ -32,10 +32,10 @@ p, ul {
     </style>
             </head>
             <body>
-              <h1>Geant4 Logo competition</h1>
+              <h1>Geant4 Logo Competition</h1>
               <div style="text-align: left; background-image: url(weneedyou.jpg);	background-repeat:no-repeat;background-position: right 10px top;">
                 <p>&nbsp;&nbsp; <font size="+3"><b>T</b></font>he Geant4 logo
-                  has already 20 years! We are looking for a new, fresh logo
+                  is already 20 years old! We are looking for a new, fresh logo
                   which is eye-catching and also better defines what we do and
                   who we are as a collaboration. It should also allow others to
                   refer to us and our code on their web-pages (e.g. companies,
@@ -177,6 +177,9 @@ p, ul {
                     page designs</a> as thumbnail (200x200 for logo and 100x400
                   for banner) with your pseudo/web site address for the duration
                   of the competition.</p>
+                <p>The number of design submission is not limited, however due
+                  to the form limitation, you can only send two design at a
+                  single time. The maximum file size is 2Mo by file.</p>
                 <br>
                 <form autocomplete="on" method="POST" enctype="multipart/form-data"
                   action="https://osur.univ-rennes1.fr/LGarnier/geant4/form.php">
@@ -185,15 +188,19 @@ p, ul {
                     <table style="width: 100%" border="0">
                       <tbody>
                         <tr>
-                          <td colspan="2" style="text-align:center"> <label for="logo">Upload
-                              my logo (2Mo max.)</label> <input name="uploadLogo"
-                              type="file">
+                          <td style="text-align:center"><label for="logo">1st
+                              logo </label> <input name="uploadLogo1" type="file">
+                          </td>
+                          <td style="text-align:center"> <label for="banner">1st
+                              banner </label> <input name="uploadBanner1" type="file">
                           </td>
                         </tr>
                         <tr>
-                          <td colspan="2" style="text-align:center"> <label for="banner">Upload
-                              my banner (2Mo max.)</label> <input name="uploadBanner"
-                              type="file">
+                          <td style="text-align:center"><label for="logo">2nd
+                              logo </label> <input name="uploadLogo2" type="file">
+                          </td>
+                          <td style="text-align:center"> <label for="banner">2nd
+                              banner </label> <input name="uploadBanner2" type="file">
                           </td>
                         </tr>
                         <tr>
@@ -206,7 +213,7 @@ p, ul {
                         </tr>
                         <tr>
                           <td style="text-align:right" width="50%"> <input name="firstName"
-                              placeholder="name"
+                              placeholder="first name"
                               type="text"><br>
                           </td>
                           <td><input name="lastName" placeholder="last name" type="text"><br>
