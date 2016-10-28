@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['count'])) {
+if(!isset($_POST['email'])) {
   if (file_exists('count_file.html')) 
     {
       $fil = fopen('count_file.html', r);
@@ -15,9 +15,7 @@ if(isset($_POST['count'])) {
       fwrite($fil, 1);
       fclose($fil);
     }
-}
-
-if(isset($_POST['email'])) {
+} else {
  
  
   // EDIT THE 2 LINES BELOW AS REQUIRED
