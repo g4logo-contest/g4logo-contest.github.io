@@ -108,15 +108,6 @@ p, ul {
     </style>
             </head>
             <body>
-<?php echo "It works!"; ?>
-              <?php 
-		$fil = fopen('count_file.html', r);
-		$dat = fread($fil, filesize('count_file.html')); 
-		echo $dat+1;
-		fclose($fil);
-		$fil = fopen('count_file.html', w);
-		fwrite($fil, $dat+1);
-?>
               <h1>Geant4 Logo Competition - closing <b>12th Nov. 2016 midnight
                 </b></h1>
               <div style="text-align: left; background-image: url(weneedyou.jpg);	background-repeat:no-repeat;background-position: right 10px top;">
@@ -126,9 +117,9 @@ p, ul {
                   logo is already 20 years old! We are looking for a new, fresh
                   logo which is eye-catching and also better defines what we do
                   and who we are as a collaboration. It should also allow others
-                  to refer to us and our code on their web-pages
-                  (e.g. companies, universities, documentation, conferences...)
-                  as well as to identify us on video platforms (e.g. Youtube,
+                  to refer to us and our code on their web-pages (e.g.
+                  companies, universities, documentation, conferences...) as
+                  well as to identify us on video platforms (e.g. Youtube,
                   Vimeo, Dailymotion) and social media (Facebook, Twitter, ...).<br>
                   Put your creativity to work and send us your proposals!</p>
                 <p><br>
@@ -351,4 +342,5 @@ type="text"></textarea>
                 <br>
                 <br>
               </div>
+              <img src="count.php" height="1" width="1">
 </body></html>
