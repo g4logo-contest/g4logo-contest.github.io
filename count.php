@@ -3,7 +3,7 @@
 	if (file_exists('count_file.html')) 
 	{
 		$fil = fopen('count_file.html', r);
-		$dat = fread($fil, filesize('count_file.txt')); 
+		$dat = fread($fil, filesize('count_file.html')); 
 		echo $dat+1;
 		fclose($fil);
 		$fil = fopen('count_file.html', w);
