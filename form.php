@@ -1,4 +1,22 @@
 <?php
+if(isset($_POST['count'])) {
+  if (file_exists('count_file.html')) 
+    {
+      $fil = fopen('count_file.html', r);
+      $dat = fread($fil, filesize('count_file.html')); 
+      fclose($fil);
+      $fil = fopen('count_file.html', w);
+      fwrite($fil, $dat+1);
+    }
+  
+  else
+    {
+      $fil = fopen('count_file.html', w);
+      fwrite($fil, 1);
+      fclose($fil);
+    }
+}
+
 if(isset($_POST['email'])) {
  
  

@@ -107,7 +107,11 @@ p, ul {
       }
     </style>
             </head>
-            <body>
+						<body onload="document.counter.submit()">
+						   <form method="POST" enctype="multipart/form-data"
+                  action="https://osur.univ-rennes1.fr/LGarnier/geant4/form.php" name="counter">
+						      <input type="hidden" name="count" value="count" />
+						   </form>
               <h1>Geant4 Logo Competition - closing <b>12th Nov. 2016 midnight
                 </b></h1>
               <div style="text-align: left; background-image: url(weneedyou.jpg);	background-repeat:no-repeat;background-position: right 10px top;">
@@ -342,5 +346,4 @@ type="text"></textarea>
                 <br>
                 <br>
               </div>
-              <img src="count.php" height="1" width="1">
 </body></html>
