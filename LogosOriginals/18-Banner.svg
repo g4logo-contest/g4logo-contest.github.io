@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="100"
+   viewBox="0 0 399.99998 99.999995"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Demo_03_Banner.svg">
+  <title
+     id="title4136">Geant4 Logo</title>
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient7413"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop7415" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7308">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop7310" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop7312" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7300">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7302" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop7304" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6383"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#efefef;stop-opacity:1;"
+         offset="0"
+         id="stop6385" />
+      <stop
+         style="stop-color:#efefef;stop-opacity:0;"
+         offset="1"
+         id="stop6387" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7300"
+       id="linearGradient7306"
+       x1="0"
+       y1="1002.3622"
+       x2="399.99995"
+       y2="1002.3622"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7308"
+       id="linearGradient7318"
+       x1="0.00014734268"
+       y1="1002.3622"
+       x2="399.99982"
+       y2="1002.3622"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="153.10186"
+     inkscape:cy="75.865505"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     borderlayer="true"
+     inkscape:snap-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Geant4 Logo</dc:title>
+        <dc:date>09.11.2016</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Recep Kandemir</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-952.36224)">
+    <rect
+       style="fill:url(#linearGradient7306);fill-opacity:1;stroke:url(#linearGradient7318);stroke-width:4.87999942;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;opacity:0.99999999"
+       id="rect7298"
+       width="395.11966"
+       height="95.11969"
+       x="2.4401472"
+       y="954.80237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:101.10905457px;line-height:125%;font-family:Junicode;-inkscape-font-specification:'Junicode, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.79999989;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="273.64664"
+       y="924.61786"
+       id="text6415-2"
+       sodipodi:linespacing="125%"
+       transform="scale(0.88741971,1.1268625)"><tspan
+         sodipodi:role="line"
+         id="tspan6417-9"
+         x="273.64664"
+         y="924.61786"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:101.10905457px;line-height:125%;font-family:Junicode;-inkscape-font-specification:'Junicode, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.79999989;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">4</tspan></text>
+    <text
+       transform="scale(1.0441971,0.95767361)"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:121.16233826px;line-height:125%;font-family:Junicode;-inkscape-font-specification:'Junicode, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="9.9392405"
+       y="1086.8342"
+       id="text6415"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6417"
+         x="9.9392405"
+         y="1086.8342"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:121.16233826px;line-height:125%;font-family:Junicode;-inkscape-font-specification:'Junicode, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">G</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:79.56933594px;line-height:125%;font-family:Junicode;-inkscape-font-specification:'Junicode, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="85.947945"
+       y="1148.3844"
+       id="text6415-2-8"
+       sodipodi:linespacing="125%"
+       transform="scale(1.1116974,0.89952536)"><tspan
+         y="1148.3844"
+         x="85.947945"
+         id="tspan7338"
+         sodipodi:role="line">eant</tspan></text>
+  </g>
+</svg>
